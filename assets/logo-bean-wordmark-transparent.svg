@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" width="400" height="520" role="img" aria-label="Gather, Grind, Grow logo">
+  <title>Gather, Grind, Grow</title>
+  <!-- Soft cream backdrop (remove rect for transparent export) -->
+  <!-- transparent background -->
+
+  <!-- Coffee grounds mound (dirt) -->
+  <g id="grounds" fill="#5C4033" opacity="0.92">
+    <ellipse cx="200" cy="168" rx="52" ry="16"/>
+    <circle cx="168" cy="162" r="3.2"/>
+    <circle cx="178" cy="170" r="2.4"/>
+    <circle cx="188" cy="160" r="2.8"/>
+    <circle cx="198" cy="172" r="3.0"/>
+    <circle cx="208" cy="161" r="2.5"/>
+    <circle cx="218" cy="169" r="2.9"/>
+    <circle cx="228" cy="163" r="2.3"/>
+    <circle cx="172" cy="166" r="1.8"/>
+    <circle cx="192" cy="166" r="2.0"/>
+    <circle cx="212" cy="174" r="2.1"/>
+    <circle cx="222" cy="158" r="1.7"/>
+    <circle cx="234" cy="170" r="2.2"/>
+    <circle cx="162" cy="170" r="2.0"/>
+    <circle cx="184" cy="174" r="1.6"/>
+    <circle cx="204" cy="158" r="1.9"/>
+  </g>
+
+  <!-- Terracotta coffee bean -->
+  <g id="bean" transform="translate(200 118) rotate(-18)">
+    <ellipse cx="0" cy="0" rx="28" ry="42" fill="#C4785A"/>
+    <!-- Split / crease -->
+    <path d="M0 -34 C -6 -18, -6 18, 0 34 C 6 18, 6 -18, 0 -34 Z" fill="#F5F0E8" opacity="0.95"/>
+  </g>
+
+  <!-- Small green sprout from top of split -->
+  <g id="sprout" fill="none" stroke="#7A9B6A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M200 78 C200 68, 200 60, 200 52"/>
+    <path d="M200 58 C190 52, 184 46, 186 40" fill="#7A9B6A" stroke="none"/>
+    <path d="M200 58 C210 52, 216 46, 214 40" fill="#7A9B6A" stroke="none"/>
+    <ellipse cx="186" cy="42" rx="7" ry="4.5" transform="rotate(-35 186 42)" fill="#8AAB78" stroke="none"/>
+    <ellipse cx="214" cy="42" rx="7" ry="4.5" transform="rotate(35 214 42)" fill="#8AAB78" stroke="none"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g id="wordmark" fill="#3B2A22" font-family="Georgia, 'Times New Roman', serif" font-size="36" text-anchor="middle">
+    <text x="200" y="250">Gather,</text>
+    <text x="200" y="300">Grind,</text>
+    <text x="200" y="350">Grow.</text>
+  </g>
+</svg>
