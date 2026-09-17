@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" width="400" height="520" role="img" aria-label="Gather, Grind, Grow locked logo">
+  <title>Gather, Grind, Grow</title>
+  <!-- transparent -->
+
+  <!-- granular coffee-grounds mound -->
+  <g fill="#4A3428">
+    <ellipse cx="200" cy="198" rx="58" ry="20"/>
+    <circle cx="160" cy="192" r="3.2"/><circle cx="170" cy="200" r="2.6"/>
+    <circle cx="180" cy="190" r="3"/><circle cx="190" cy="202" r="2.8"/>
+    <circle cx="200" cy="191" r="3.1"/><circle cx="210" cy="199" r="2.5"/>
+    <circle cx="220" cy="193" r="2.9"/><circle cx="230" cy="201" r="2.4"/>
+    <circle cx="240" cy="195" r="2.7"/><circle cx="165" cy="196" r="2"/>
+    <circle cx="185" cy="196" r="2.2"/><circle cx="205" cy="205" r="2.1"/>
+    <circle cx="215" cy="188" r="1.9"/><circle cx="225" cy="197" r="2.3"/>
+    <circle cx="175" cy="205" r="1.8"/><circle cx="195" cy="188" r="2"/>
+  </g>
+
+  <!-- terracotta bean -->
+  <ellipse cx="200" cy="150" rx="36" ry="52" fill="#C4785A"/>
+
+  <!-- white split -->
+  <path d="M200 106 C191 124, 191 178, 200 200 C209 178, 209 124, 200 106 Z" fill="#F5F0E8"/>
+
+  <!-- sprout from INSIDE top of split -->
+  <g id="sprout">
+    <path d="M200 130 L200 90" fill="none" stroke="#7A9B6A" stroke-width="2.8" stroke-linecap="round"/>
+    <ellipse cx="188" cy="84" rx="9.5" ry="5.2" fill="#8AAB78" transform="rotate(-38 188 84)"/>
+    <ellipse cx="212" cy="84" rx="9.5" ry="5.2" fill="#8AAB78" transform="rotate(38 212 84)"/>
+  </g>
+
+  <g fill="#2F211C" font-family="Georgia, 'Times New Roman', serif" font-size="36" text-anchor="middle">
+    <text x="200" y="272">Gather,</text>
+    <text x="200" y="322">Grind,</text>
+    <text x="200" y="372">Grow.</text>
+  </g>
+</svg>
