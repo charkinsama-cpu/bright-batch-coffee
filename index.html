@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Bright Batch Coffee — freshly roasted whole-bean coffee, shipped to your door. A warm third place in a bag." />
-  <title>Bright Batch Coffee — Freshly Roasted, Shipped to You</title>
+  <meta name="description" content="Gather, Grind, Grow — freshly roasted whole-bean coffee, shipped to your door. Soft hospitality for the kitchen table." />
+  <title>Gather, Grind, Grow — Freshly Roasted Whole Bean</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -19,29 +20,25 @@
   <!-- Header -->
   <header class="site-header" id="top">
     <div class="header-inner">
-      <a class="logo" href="#top" aria-label="Bright Batch Coffee home">
-        <span class="logo-mark" aria-hidden="true">
-          <svg viewBox="0 0 40 40" width="36" height="36" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="1.5"/>
-            <ellipse cx="20" cy="22" rx="9" ry="7" fill="currentColor" opacity="0.9"/>
-            <path d="M14 18c2-4 4-6 6-6s4 2 6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.7"/>
-            <path d="M28 20c2 0 3.5 1.5 3.5 3.5S30 27 28 27" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-          </svg>
-        </span>
-        <span class="logo-text">
-          <span class="logo-name">Bright Batch</span>
-          <span class="logo-sub">Coffee</span>
-        </span>
+      <a class="logo" href="#top" aria-label="Gather, Grind, Grow home">
+        <img
+          class="logo-img"
+          src="assets/logo-bean-wordmark.png"
+          alt="Gather, Grind, Grow"
+          width="120"
+          height="120"
+        />
       </a>
 
       <nav class="nav-desktop" aria-label="Primary">
         <a href="#product">Shop</a>
-        <a href="#why">Our Story</a>
+        <a href="#about">About</a>
         <a href="#how">How It Works</a>
-        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
       </nav>
 
       <div class="header-actions">
+        <a href="#product" class="btn btn-primary header-shop-cta">Shop</a>
         <button type="button" class="cart-btn" id="cart-toggle" aria-label="Open cart" aria-expanded="false" aria-controls="cart-drawer">
           <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
             <path d="M6 6h15l-1.5 9h-12z" stroke-linejoin="round"/>
@@ -59,9 +56,9 @@
 
     <nav class="nav-mobile" id="nav-mobile" aria-label="Mobile" hidden>
       <a href="#product">Shop</a>
-      <a href="#why">Our Story</a>
+      <a href="#about">About</a>
       <a href="#how">How It Works</a>
-      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
       <a href="#product" class="btn btn-primary nav-cta">Shop the 12 oz bag</a>
     </nav>
   </header>
@@ -71,15 +68,24 @@
     <section class="hero" aria-labelledby="hero-heading">
       <div class="hero-bg" aria-hidden="true"></div>
       <div class="hero-content">
+        <div class="hero-mark">
+          <img
+            src="assets/logo-bean-wordmark.png"
+            alt=""
+            width="220"
+            height="220"
+            class="hero-logo"
+          />
+        </div>
         <p class="eyebrow">Whole bean · Roasted to order</p>
-        <h1 id="hero-heading">Coffee worth gathering around.</h1>
+        <h1 id="hero-heading">Gather, Grind, Grow</h1>
         <p class="hero-lead">
           A warm cup for your kitchen table — freshly roasted, shipped to your door.
-          Bright Batch is hospitality in a bag: simple, calm, and made for sharing.
+          Soft hospitality in a bag: simple, calm, and made for sharing.
         </p>
         <div class="hero-ctas">
           <a href="#product" class="btn btn-primary btn-lg">Shop the 12 oz bag</a>
-          <a href="#why" class="btn btn-ghost btn-lg">Why Bright Batch</a>
+          <a href="#about" class="btn btn-ghost btn-lg">Our story</a>
         </div>
         <ul class="hero-trust" aria-label="Highlights">
           <li>Roasted fresh</li>
@@ -93,50 +99,51 @@
             <svg viewBox="0 0 220 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Coffee bag illustration">
               <defs>
                 <linearGradient id="bagGrad" x1="0" y1="0" x2="1" y2="1">
-                  <stop offset="0%" stop-color="#3D2914"/>
+                  <stop offset="0%" stop-color="#3C2A21"/>
                   <stop offset="100%" stop-color="#1F120A"/>
                 </linearGradient>
               </defs>
               <path d="M40 40 L50 20 H170 L180 40 V250 C180 262 170 270 110 270 C50 270 40 262 40 250 Z" fill="url(#bagGrad)"/>
-              <rect x="55" y="70" width="110" height="120" rx="4" fill="#F7F1E8" opacity="0.95"/>
-              <circle cx="110" cy="115" r="22" fill="none" stroke="#C4785A" stroke-width="2"/>
-              <ellipse cx="110" cy="120" rx="12" ry="9" fill="#C4785A" opacity="0.85"/>
-              <path d="M102 112c3-5 5-7 8-7s5 2 8 7" stroke="#C4785A" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-              <text x="110" y="165" text-anchor="middle" fill="#3D2914" font-family="Georgia, serif" font-size="11" font-weight="600">BRIGHT BATCH</text>
-              <text x="110" y="180" text-anchor="middle" fill="#8B6914" font-family="Georgia, serif" font-size="8" letter-spacing="1">12 OZ · WHOLE BEAN</text>
+              <rect x="55" y="70" width="110" height="120" rx="4" fill="#F5F0E8" opacity="0.95"/>
+              <ellipse cx="110" cy="108" rx="14" ry="17" fill="#C4785A"/>
+              <path d="M110 94 C105 101 105 115 110 122 C115 115 115 101 110 94 Z" fill="none" stroke="#F5F0E8" stroke-width="1.4" stroke-linecap="round" opacity="0.7"/>
+              <text x="110" y="148" text-anchor="middle" fill="#3C2A21" font-family="Georgia, serif" font-size="9" font-weight="600">Gather,</text>
+              <text x="110" y="162" text-anchor="middle" fill="#3C2A21" font-family="Georgia, serif" font-size="9" font-weight="600">Grind,</text>
+              <text x="110" y="176" text-anchor="middle" fill="#3C2A21" font-family="Georgia, serif" font-size="9" font-weight="600">Grow.</text>
+              <text x="110" y="198" text-anchor="middle" fill="#8A9A7B" font-family="Georgia, serif" font-size="7" letter-spacing="1">12 OZ · WHOLE BEAN</text>
               <path d="M40 40 H180" stroke="#C4785A" stroke-width="3"/>
             </svg>
           </div>
-          <p class="bag-caption">12 oz private-label whole bean</p>
+          <p class="bag-caption">12 oz whole-bean hero bag</p>
         </div>
       </div>
     </section>
 
-    <!-- Product -->
+    <!-- Product / Shop -->
     <section class="product" id="product" aria-labelledby="product-heading">
       <div class="section-inner product-grid">
         <div class="product-media">
           <div class="product-frame">
-            <svg viewBox="0 0 320 400" xmlns="http://www.w3.org/2000/svg" class="product-svg" role="img" aria-label="Bright Batch 12 oz coffee bag">
+            <svg viewBox="0 0 320 400" xmlns="http://www.w3.org/2000/svg" class="product-svg" role="img" aria-label="12 oz whole-bean coffee bag">
               <defs>
                 <linearGradient id="prodBag" x1="0" y1="0" x2="0.3" y2="1">
                   <stop offset="0%" stop-color="#4A3220"/>
                   <stop offset="100%" stop-color="#1A1008"/>
                 </linearGradient>
                 <filter id="softShadow" x="-20%" y="-10%" width="140%" height="130%">
-                  <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#2C1810" flood-opacity="0.25"/>
+                  <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#3C2A21" flood-opacity="0.25"/>
                 </filter>
               </defs>
               <g filter="url(#softShadow)">
                 <path d="M55 55 L70 28 H250 L265 55 V355 C265 375 245 388 160 388 C75 388 55 375 55 355 Z" fill="url(#prodBag)"/>
                 <path d="M55 55 H265" stroke="#C4785A" stroke-width="5"/>
-                <rect x="85" y="100" width="150" height="175" rx="6" fill="#F7F1E8"/>
-                <circle cx="160" cy="160" r="32" fill="none" stroke="#C4785A" stroke-width="2.5"/>
-                <ellipse cx="160" cy="168" rx="16" ry="12" fill="#C4785A"/>
-                <path d="M148 155c4-7 7-10 12-10s8 3 12 10" stroke="#C4785A" stroke-width="2" fill="none" stroke-linecap="round"/>
-                <text x="160" y="230" text-anchor="middle" fill="#2C1810" font-family="Georgia, serif" font-size="14" font-weight="700">BRIGHT BATCH</text>
-                <text x="160" y="250" text-anchor="middle" fill="#8B6B4A" font-family="sans-serif" font-size="10" letter-spacing="2">COFFEE</text>
-                <text x="160" y="275" text-anchor="middle" fill="#A67C52" font-family="sans-serif" font-size="9">12 OZ · WHOLE BEAN</text>
+                <rect x="85" y="95" width="150" height="195" rx="6" fill="#F5F0E8"/>
+                <ellipse cx="160" cy="145" rx="22" ry="26" fill="#C4785A"/>
+                <path d="M160 124 C152 135 152 155 160 166 C168 155 168 135 160 124 Z" fill="none" stroke="#F5F0E8" stroke-width="2" stroke-linecap="round" opacity="0.75"/>
+                <text x="160" y="200" text-anchor="middle" fill="#3C2A21" font-family="Georgia, serif" font-size="13" font-weight="700">Gather,</text>
+                <text x="160" y="220" text-anchor="middle" fill="#3C2A21" font-family="Georgia, serif" font-size="13" font-weight="700">Grind,</text>
+                <text x="160" y="240" text-anchor="middle" fill="#3C2A21" font-family="Georgia, serif" font-size="13" font-weight="700">Grow.</text>
+                <text x="160" y="268" text-anchor="middle" fill="#8A9A7B" font-family="sans-serif" font-size="9" letter-spacing="1.5">12 OZ · WHOLE BEAN</text>
               </g>
             </svg>
           </div>
@@ -144,9 +151,9 @@
         </div>
 
         <div class="product-info">
-          <p class="eyebrow">Hero SKU</p>
+          <p class="eyebrow">Shop · Hero SKU</p>
           <h2 id="product-heading">12 oz Whole Bean</h2>
-          <p class="product-tagline">Private-label coffee, roasted fresh and packed for your home ritual.</p>
+          <p class="product-tagline">Freshly roasted whole bean, packed for your home ritual.</p>
 
           <div class="price-block">
             <span class="price">$18 – $22</span>
@@ -190,39 +197,42 @@
       </div>
     </section>
 
-    <!-- Why -->
-    <section class="why" id="why" aria-labelledby="why-heading">
+    <!-- About / Story -->
+    <section class="why" id="about" aria-labelledby="about-heading">
       <div class="section-inner why-inner">
         <div class="why-copy">
-          <p class="eyebrow">Our story</p>
-          <h2 id="why-heading">Why Bright Batch</h2>
+          <p class="eyebrow">About</p>
+          <h2 id="about-heading">Gather, Grind, Grow</h2>
           <p>
-            Good coffee is a small act of welcome. We built Bright Batch for the kitchen table,
-            the quiet morning, and the friend who drops by — the kind of third place you carry home.
+            <strong>Gather</strong> — coffee is how we welcome people in. A table, a quiet morning,
+            a friend who drops by.
           </p>
           <p>
-            Faith is our quiet why: community, gathering, and care for neighbors.
-            You won’t find a sermon on the bag — just honest coffee meant to be shared.
+            <strong>Grind</strong> — the small daily work: whole bean, fresh roast, a cup made with care.
+          </p>
+          <p>
+            <strong>Grow</strong> — community that deepens over time. Faith is our quiet why —
+            gathering and growth, not a sermon on the bag. Just honest coffee meant to be shared.
           </p>
           <p class="why-close">
-            Order when you need a bag. We’ll roast, pack, and send it your way.
+            Bags first. A café with Brittney is a soft someday — for now, hospitality ships to your door.
           </p>
         </div>
         <div class="why-cards" role="list">
           <article class="why-card" role="listitem">
             <span class="why-icon" aria-hidden="true">⌂</span>
-            <h3>Third-place warmth</h3>
-            <p>Hospitality you can brew — calm, human, and ready for company.</p>
+            <h3>Gather</h3>
+            <p>Third-place warmth at home — calm, human, ready for company.</p>
           </article>
           <article class="why-card" role="listitem">
             <span class="why-icon" aria-hidden="true">◎</span>
-            <h3>Fresh by design</h3>
-            <p>Roasted to order and shipped so flavor isn’t an afterthought.</p>
+            <h3>Grind</h3>
+            <p>Whole bean, roasted to order — flavor that isn’t an afterthought.</p>
           </article>
           <article class="why-card" role="listitem">
             <span class="why-icon" aria-hidden="true">♡</span>
-            <h3>Quiet care</h3>
-            <p>Community and gathering as the soft center — never loud, always present.</p>
+            <h3>Grow</h3>
+            <p>Community and care as the soft center — never loud, always present.</p>
           </article>
         </div>
       </div>
@@ -256,42 +266,31 @@
       </div>
     </section>
 
-    <!-- FAQ -->
-    <section class="faq" id="faq" aria-labelledby="faq-heading">
-      <div class="section-inner faq-inner">
+    <!-- Contact -->
+    <section class="contact" id="contact" aria-labelledby="contact-heading">
+      <div class="section-inner contact-inner">
         <div class="section-head">
-          <p class="eyebrow">Answers</p>
-          <h2 id="faq-heading">FAQ</h2>
+          <p class="eyebrow">Say hello</p>
+          <h2 id="contact-heading">Contact</h2>
+          <p class="section-lead">
+            Questions, wholesale curiosity, or just a note — we’d love to hear from you.
+          </p>
         </div>
-        <div class="faq-list">
-          <details class="faq-item" open>
-            <summary>How does shipping work?</summary>
-            <p>
-              After you order, we roast and ship to your address. Timing and carriers will be confirmed in Shopify
-              (expect a short roast window, then transit). Demo only — final rates and zones set at launch.
-            </p>
-          </details>
-          <details class="faq-item">
-            <summary>Why whole bean?</summary>
-            <p>
-              Whole bean stays fresher longer. Grind just before brewing for the brightest cup.
-              Ground options can be added later in Shopify if you want them.
-            </p>
-          </details>
-          <details class="faq-item">
-            <summary>How fresh is the coffee?</summary>
-            <p>
-              We roast in small batches after you order, then ship so the bag arrives still lively.
-              Exact roast-to-ship timing will be published with the live store.
-            </p>
-          </details>
-          <details class="faq-item">
-            <summary>What’s your return policy?</summary>
-            <p>
-              Placeholder: if something’s wrong with your order, reach out and we’ll make it right.
-              Final return / replacement policy will live in Shopify and the footer at launch.
-            </p>
-          </details>
+        <div class="contact-cards">
+          <article class="contact-card">
+            <h3>Email</h3>
+            <p><a href="mailto:hello@gathergrindgrow.example">hello@gathergrindgrow.example</a></p>
+            <p class="contact-note">Placeholder — replace at launch.</p>
+          </article>
+          <article class="contact-card">
+            <h3>Instagram</h3>
+            <p><a href="https://instagram.com/" rel="noopener noreferrer" target="_blank">@gathergrindgrow</a></p>
+            <p class="contact-note">Placeholder handle — replace at launch.</p>
+          </article>
+          <article class="contact-card contact-shopify">
+            <h3>Checkout</h3>
+            <p>Live checkout will run on <strong>Shopify</strong> — this page is a design preview with a demo cart only.</p>
+          </article>
         </div>
       </div>
     </section>
@@ -299,20 +298,30 @@
     <!-- Soft CTA band -->
     <section class="cta-band" aria-labelledby="cta-heading">
       <div class="section-inner cta-inner">
-        <h2 id="cta-heading">Ready for a brighter batch?</h2>
+        <h2 id="cta-heading">Ready to gather around a cup?</h2>
         <p>Start with the 12 oz bag — hospitality that ships.</p>
         <a href="#product" class="btn btn-primary btn-lg">Shop the 12 oz bag</a>
       </div>
     </section>
   </main>
 
+  <!-- Sticky mobile shop CTA -->
+  <div class="sticky-shop" id="sticky-shop" hidden>
+    <a href="#product" class="btn btn-primary btn-block">Shop the 12 oz bag</a>
+  </div>
+
   <!-- Footer -->
   <footer class="site-footer">
     <div class="footer-inner">
       <div class="footer-brand">
         <a class="logo logo-footer" href="#top">
-          <span class="logo-name">Bright Batch</span>
-          <span class="logo-sub">Coffee</span>
+          <img
+            class="logo-img logo-img-footer"
+            src="assets/logo-bean-wordmark.png"
+            alt="Gather, Grind, Grow"
+            width="100"
+            height="100"
+          />
         </a>
         <p>Freshly roasted whole bean, shipped to your door.</p>
       </div>
@@ -320,22 +329,22 @@
         <h3>Visit</h3>
         <ul>
           <li><a href="#product">Shop</a></li>
-          <li><a href="#why">Our Story</a></li>
+          <li><a href="#about">About</a></li>
           <li><a href="#how">How It Works</a></li>
-          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
       <div class="footer-col">
         <h3>Connect</h3>
         <ul>
-          <li><a href="mailto:hello@brightbatch.example">hello@brightbatch.example</a></li>
-          <li><a href="https://instagram.com/" rel="noopener noreferrer" target="_blank">Instagram @brightbatch</a></li>
+          <li><a href="mailto:hello@gathergrindgrow.example">hello@gathergrindgrow.example</a></li>
+          <li><a href="https://instagram.com/" rel="noopener noreferrer" target="_blank">Instagram @gathergrindgrow</a></li>
         </ul>
-        <p class="footer-note">Email &amp; Instagram are placeholders — replace at launch.</p>
+        <p class="footer-note">Email &amp; Instagram are placeholders — replace at launch. Checkout will be Shopify.</p>
       </div>
     </div>
     <div class="footer-bottom">
-      <p>© <span id="year"></span> Bright Batch Coffee. Design preview — not a live store.</p>
+      <p>© <span id="year"></span> Gather, Grind, Grow. Brand name TBD. Design preview — not a live store.</p>
     </div>
   </footer>
 

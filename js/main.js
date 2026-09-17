@@ -1,4 +1,4 @@
-/* Bright Batch Coffee — preview interactions (hamburger, mock cart) */
+/* Gather, Grind, Grow — preview interactions (hamburger, mock cart, sticky shop CTA) */
 
 (function () {
   "use strict";
@@ -25,6 +25,8 @@
   const checkoutDemo = document.getElementById("checkout-demo");
   const toast = document.getElementById("toast");
   const yearEl = document.getElementById("year");
+  const stickyShop = document.getElementById("sticky-shop");
+  const productSection = document.getElementById("product");
 
   let cartQty = 0;
   let toastTimer = null;
@@ -52,6 +54,36 @@
     navMobile.querySelectorAll("a").forEach(function (link) {
       link.addEventListener("click", function () {
         setNavOpen(false);
+      });
+    });
+  }
+
+  /* Sticky shop CTA — show on mobile after scrolling past hero / before product is fully in view */
+  function updateStickyShop() {
+    if (!stickyShop || !productSection) return;
+    if (window.matchMedia("(min-width: 820px)").matches) {
+      stickyShop.hidden = true;
+      document.body.classList.remove("has-sticky-shop");
+      return;
+    }
+    var rect = productSection.getBoundingClientRect();
+    var pastHero = window.scrollY > 280;
+    var productFullyVisible =
+      rect.top < window.innerHeight * 0.35 && rect.bottom > window.innerHeight * 0.5;
+    var show = pastHero && !productFullyVisible;
+    stickyShop.hidden = !show;
+    document.body.classList.toggle("has-sticky-shop", show);
+  }
+
+  window.addEventListener("scroll", updateStickyShop, { passive: true });
+  window.addEventListener("resize", updateStickyShop);
+  updateStickyShop();
+
+  if (stickyShop) {
+    stickyShop.querySelectorAll("a").forEach(function (link) {
+      link.addEventListener("click", function () {
+        stickyShop.hidden = true;
+        document.body.classList.remove("has-sticky-shop");
       });
     });
   }
@@ -151,7 +183,7 @@
       cartItems.innerHTML =
         '<li class="cart-item">' +
         '<div class="cart-item-thumb" aria-hidden="true"></div>' +
-        '<div>' +
+        "<div>" +
         "<h3>" +
         PRODUCT_NAME +
         "</h3>" +
