@@ -3,15 +3,15 @@
    Mobile-first, soft hospitality */
 
 :root {
-  --cream: #f5f0e8;
-  --cream-deep: #ebe4d8;
-  --cream-soft: #faf7f2;
-  --espresso: #3c2a21;
+  --cream: #fdf9f2;
+  --cream-deep: #f0e8dc;
+  --cream-soft: #fffdf9;
+  --espresso: #2d231b;
   --espresso-mid: #4a3529;
   --espresso-soft: #5c4538;
-  --terracotta: #c4785a;
+  --terracotta: #ba6b4e;
   --terracotta-deep: #a85f42;
-  --sage: #8a9a7b;
+  --sage: #a8b892;
   --sage-soft: #a8b59c;
   --amber: #d4a574;
   --amber-soft: #e8c9a8;
