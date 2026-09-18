@@ -1261,3 +1261,22 @@ body.has-sticky-shop .toast {
     animation-duration: 0.01ms !important;
   }
 }
+
+
+.bag-photo,
+.product-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.bag-illustration {
+  padding: 0.5rem;
+}
+
+.product-frame {
+  background: transparent;
+  box-shadow: none;
+  padding: 0;
+}
