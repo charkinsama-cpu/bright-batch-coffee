@@ -1,18 +1,18 @@
-# Gather, Grind, Grow — Storefront Preview
+# Gather. Grind. Grow. — Storefront Preview
 
 **This is a design / UX preview**, not a live store.  
 Next step: port the look and structure into a **Shopify** theme and real product catalog.
 
-**Wordmark / tagline:** Gather, Grind, Grow  
+**Wordmark / tagline:** Gather. Grind. Grow.  
 **Legal / company brand name:** TBD — do not invent a company name on the storefront. Lead with the tagline.
 
 ## What this is
 
 A phone-ready, static HTML/CSS/JS single-page storefront:
 
-- Hero — Gather, Grind, Grow + hospitality line + Shop CTA  
+- Hero — Gather. Grind. Grow. + hospitality line + Shop CTA  
 - Shop — 12 oz whole-bean product card (demo price, labeled demo)  
-- About / Story — Gather, Grind, Grow meaning in plain warm language  
+- About / Story — Gather. Grind. Grow. meaning in plain warm language  
 - How it works — Order → We roast & ship → Brew at home  
 - Contact — email / Instagram placeholders + Shopify checkout note  
 - Footer + mock cart drawer (UI only)  
@@ -42,7 +42,7 @@ python3 -m http.server 8080
 
 | Token | Value |
 |--------|--------|
-| Wordmark | **Gather, Grind, Grow** (company name TBD) |
+| Wordmark | **Gather. Grind. Grow.** (company name TBD) |
 | Vibe | Soft hospitality — welcome, calm, human |
 | Faith | Quiet “why” (community, gathering, growth) — not sermon-on-bag |
 | Palette | Cream `#F5F0E8`, terracotta `#C4785A`, espresso `#3C2A21`, sage `#8A9A7B` |

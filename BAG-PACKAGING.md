@@ -1,4 +1,4 @@
-# Bag packaging — Gather, Grind, Grow
+# Bag packaging — Gather. Grind. Grow.
 
 **Locked logo only:** `assets/logo-LOCKED.png` (cropped Charles mark)
 
