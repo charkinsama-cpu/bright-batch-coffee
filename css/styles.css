@@ -205,17 +205,19 @@ p { margin: 0 0 1rem; }
 
 .logo-img {
   width: auto;
-  height: 3.35rem;
+  height: 4.75rem;
+  max-width: 9.5rem;
   object-fit: contain;
+  object-position: center;
 }
 
 .logo-img-footer {
-  height: 5.5rem;
+  height: 8rem;
+  max-width: 12rem;
   margin-bottom: 0.5rem;
-  /* Invert cream field slightly for dark footer — keep bean/text readable via light pad */
   background: var(--cream);
-  border-radius: 10px;
-  padding: 0.35rem;
+  border-radius: 12px;
+  padding: 0.5rem;
 }
 
 .header-shop-cta {
@@ -360,7 +362,7 @@ p { margin: 0 0 1rem; }
   .nav-toggle { display: none; }
   .nav-mobile { display: none !important; }
   .header-shop-cta { display: inline-flex; }
-  .logo-img { height: 3.75rem; }
+  .logo-img { height: 5.25rem; max-width: 11rem; }
 }
 
 /* Hero */
@@ -393,9 +395,12 @@ p { margin: 0 0 1rem; }
 }
 
 .hero-logo {
-  width: min(100%, 160px);
+  width: min(16rem, 70vw);
   height: auto;
-  margin: 0;
+  max-height: 18rem;
+  object-fit: contain;
+  display: block;
+  margin-inline: auto;
 }
 
 .hero-lead {
